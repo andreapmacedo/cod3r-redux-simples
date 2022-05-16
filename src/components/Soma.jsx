@@ -4,12 +4,13 @@ import "./Intervalo.css"
 import Card from "./Card";
 
 export default props => {
+  const {min, max} = props
   return (
     <Card title="Soma dos Números" blue>
       <div>
         <span>
           <apan>Resultado: </apan>
-          <strong>10</strong>
+          <strong>{max + min}</strong>
         </span>
       </div>
     </Card>
