@@ -8,7 +8,6 @@ import Sorteio from './components/Sorteio';
 import Intervalo from './components/Intervalo';
 
 function App() {
-    
   return (
     <div className="App">
       <h1>Exercícios React-Redux (simples)</h1>
@@ -18,8 +17,8 @@ function App() {
       </div>
       <div className='linha'>
         <Media prop1="abc" prop2="def"></Media>
-        <Soma >x</Soma>
-        <Sorteio >x</Sorteio>
+        <Soma></Soma>
+        <Sorteio></Sorteio>
       </div>
     </div>
   );
